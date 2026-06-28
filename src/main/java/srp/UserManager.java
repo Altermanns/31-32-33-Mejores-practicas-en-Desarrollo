@@ -2,7 +2,6 @@ package srp;
 
 import java.util.regex.Pattern;
 
-// 1. Clases de soporte (Visibilidad de paquete, se mantienen en el mismo archivo)
 
 class UserValidator {
     public boolean isValidEmail(String email) {
@@ -28,7 +27,6 @@ class NotificationService {
     }
 }
 
-// 2. Única clase pública del archivo
 
 public class UserManager {
     private final UserValidator validator;
