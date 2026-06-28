@@ -12,7 +12,6 @@ public class DeviceSystemTest {
         assertEquals("Phone is turning on.", phone.turnOn(), "El teléfono debe encender.");
         assertEquals("Phone is charging.", phone.charge(), "El teléfono debe cargar.");
 
-        // Verificamos que el teléfono cumple con ambos contratos
         assertTrue(phone instanceof Switchable, "El teléfono debe ser Switchable");
         assertTrue(phone instanceof Chargeable, "El teléfono debe ser Chargeable");
     }
@@ -23,7 +22,6 @@ public class DeviceSystemTest {
 
         assertEquals("Disposable camera is turning on.", camera.turnOn(), "La cámara debe encender.");
 
-        // Verificamos que cumple con Switchable, pero estrictamente NO con Chargeable
         assertTrue(camera instanceof Switchable, "La cámara debe ser Switchable");
         assertFalse(camera instanceof Chargeable, "La cámara NO debe implementar Chargeable");
     }
