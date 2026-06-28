@@ -1,4 +1,6 @@
+isp\Chargeable.class
 srp\UserRepository.class
+isp\Switchable.class
 ocp\NotificationService.class
 lsp\Animal.class
 ocp\SMSNotification.class
@@ -9,8 +11,11 @@ ocp\Main.class
 ocp\PushNotification.class
 ocp\Notification.class
 srp\NotificationService.class
+isp\Main.class
+isp\DisposableCamera.class
 lsp\Fish.class
 srp\Main.class
 srp\UserManager.class
+isp\Phone.class
 lsp\Main.class
 srp\UserValidator.class
