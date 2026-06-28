@@ -1,0 +1,4 @@
+srp\UserRepository.class
+srp\NotificationService.class
+srp\UserManager.class
+srp\UserValidator.class
